@@ -1,0 +1,92 @@
+
+h1 {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: xx-large;
+    font-style: italic, bold;
+    text-align: center;
+    color: black;
+}
+
+h2, h3 {
+    font-family: Georgia, serif;
+    font-size: medium;
+    font-style: bold;
+    color: black;
+}
+
+.list {
+    font-family: "Gill Sans", sans-serif;
+    font-size: medium;
+    font-style: normal;
+    color: black;
+}
+
+#ingredients {
+    float: left;
+    width: 15%;
+    padding: 5px;
+    border: 30px;
+    border-style: solid;
+    border-color: chartreuse;
+}
+
+article {
+    float: none;
+    border: 30px;
+    border-style: double;
+    border-color: chocolate;
+    width: 70%;
+    height: 320px;
+    padding: 5px;
+    align-content: center;
+}
+
+header {
+    background-color: green;
+    padding: 30px;
+}
+
+footer {
+    background-color: green;
+    padding: 30px;
+    text-align: center;
+    width: 100%;
+}
+
+@media (max-width: 600px) {
+nav, article {
+    width: 100%;
+    height: auto;
+}
+}
+
+a:link, a:visited {
+    color: blue;
+}
+
+a:hover {
+    background-color: red;
+}
+
+div p {
+    font-family: Georgia, serif;
+    font-size: medium;
+    font-style: italic;
+    color: black;
+    text-align: center;
+}
+
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+  }
+button:hover {
+    padding: 1px 6px;
+    border: 1px outset buttonborder;
+    border-radius: 3px;
+    color: buttontext;
+    background-color: red;
+    align-self: center;
+}

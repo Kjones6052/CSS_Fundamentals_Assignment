@@ -1,0 +1,3 @@
+# **Hello, World**
+
+The files contained in this repository were writted and designed to create a webpage for a chocolate chip pcookie recipe. On the main recipe page there is also a button that links to a new page where you can submit your own recipe. This project utlizes a separate CSS file to stylize the content. The HTML code includes distinct sections for the recipe ingredients in the form of an unordered list, as well as the cooking instructions as an ordered list. Every element of the site is styled using CSS. 
